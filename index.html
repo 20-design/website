@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym Website</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@700;800&family=Tilt+Neon&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url(gym1.webp);
+        font-family: 'Golos Text', sans-serif;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 0px;
+    }
+
+    .left img {
+        width: 100px;
+        margin-left: 23px;
+        margin-top: 4px;
+    }
+
+    .left div {
+        text-align: center;
+
+    }
+
+    .mid {
+
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .right {
+
+        position: absolute;
+        display: inline-block;
+        right: 20px;
+        top: 0px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: brown;
+    }
+
+    .btn {
+        margin: 6px 9px;
+        color: white;
+        background-color: rgb(51, 75, 87);
+        padding: 4px 14px;
+        border-radius: 6px;
+        font-size: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(5, 21, 27);
+    }
+
+    .container {
+        font-family: lato bold;
+        width: 33%;
+        margin: 106px 75px;
+        padding: 45px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .form-group input {
+
+        text-align: center;
+        display: block;
+        width: 355px;
+        padding: 1px;
+        border: 2px solid white;
+        margin: 5px auto;
+        border-radius: 20px;
+        font-size: 17px;
+        font-family: lato bold;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 23%;
+        margin: 9px auto;
+
+    }
+</style>
+</head>
+
+<body>
+
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="bell.webp">
+            <div>Base Fitness Connection</div>
+        </div>
+        <!--Mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!--Right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best gym of Kathmandu Now</h3>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Number">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email">
+
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
